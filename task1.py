@@ -5,9 +5,12 @@ You will need to use the .strip() method for this assignment. Be aware of your
 (2 points)
 
 Inputs:
- name
- email
+ name = .strip()
+ email= .strip()
 
 Sample output:
  Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.
 """
+x = input("what is your Name")
+y = input("email").strip()
+print(f"Your name is {x} , and your email is {y}")
