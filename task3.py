@@ -12,3 +12,10 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+a = int(input("enter a number"))
+b = int(input("enter a number"))
+c = int(input("enter a number"))
+yes = (c-b)/a
+print(f"x = {yes}")
+
